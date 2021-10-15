@@ -1,6 +1,6 @@
 var ringer = {
   //countdown_to: "10/31/2014",
-  countdown_to: "08/14/2021",
+  countdown_to: "08/06/2022",
   rings: {
     'JOURS': { 
       s: 86400000, // mseconds in a day,
@@ -45,7 +45,7 @@ var ringer = {
     $r.cvs.setAttribute('width',$r.size.w);           
     $r.cvs.setAttribute('height',$r.size.h);
     $r.ctx = $r.cvs.getContext('2d');
-	$(document.body).append('<H1>Corsica 2021</H1>');
+	$(document.body).append('<H1>Corsica 2022</H1>');
     $(document.body).append($r.cvs);
 	$(document.body).append('<H1>On tient le coup les amis :-)</H1>');
     $r.cvs = $($r.cvs);    
